@@ -50,7 +50,7 @@ jobs:
       # Replace YOUR_BUCKET_NAME with your bucket name
       - name: Upload Files to Cloud Storage
         run: |
-          gsutil -m cp -r * gs://bucketyty
+          gsutil -m cp -r * gs://blacky
 
       # Step 6
       # Display success message
